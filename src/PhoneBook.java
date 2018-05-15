@@ -89,20 +89,6 @@ public class PhoneBook {
 	}
 	
 	public static void main(String[] args) {
-		/*
-		int r = 4, c = 7, r_ = 0;
-		
-		int[][] b = {{1,2,3,4,5,6,7},{1,2,3,5,4,6,7},{1,2,3,5,6,4,7},{1,2,3,5,6,7,4}};
-		for(int i=0; i < r-1; i++)
-			 for(int j=0; j < c; j++)
-			 {
-				if(b[i][j] == b[i+1][j])
-					r_++;
-				else
-					j = c-1;
-			 }
-		
-		System.out.println(r_);*/
 		
 		PhoneBook pb = new PhoneBook();
 		pb.readFile();
